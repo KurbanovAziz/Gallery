@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="send">Send</string>
+    <string name="add_image">add_image</string>
+    <string name="image">image</string>
+    <string name="selected_bg">selected_bg</string>
+</resources>
