@@ -1,4 +1,4 @@
-package com.example.gallery
+package com.example.gallery.ui.selected.adapter
 
 import android.annotation.SuppressLint
 import android.net.Uri

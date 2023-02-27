@@ -1,4 +1,4 @@
-package com.example.gallery
+package com.example.gallery.ui.selecte
 
 import android.annotation.SuppressLint
 import android.net.Uri
@@ -45,11 +45,11 @@ class ImageAdapter(private val onCLick: (uri: Uri) -> Unit) :
             binding.apply {
                 ivFirst.setImageURI(uri)
                 itemView.setOnClickListener {
-                    if (!ivBackground.isVisible) {
-                        ivBackground.isVisible = true
+                    if (!ivSelected.isVisible) {
+                        ivSelected.isVisible = true
                         selectedList.add(uri)
                     } else {
-                        ivBackground.isVisible = false
+                        ivSelected.isVisible = false
                         selectedList.remove(uri)
                     }
                 }

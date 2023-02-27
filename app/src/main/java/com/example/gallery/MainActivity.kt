@@ -7,6 +7,8 @@ import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import com.example.gallery.databinding.ActivityMainBinding
+import com.example.gallery.ui.selecte.ImageAdapter
+import com.example.gallery.ui.selected.ResultActivity
 
 
 class MainActivity : AppCompatActivity() {

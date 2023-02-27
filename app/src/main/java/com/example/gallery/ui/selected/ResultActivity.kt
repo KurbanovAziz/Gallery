@@ -1,9 +1,10 @@
-package com.example.gallery
+package com.example.gallery.ui.selected
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.gallery.databinding.ActivityResultBinding
+import com.example.gallery.ui.selected.adapter.SelectedAdapter
 
 @Suppress("UNCHECKED_CAST", "DEPRECATION")
 class ResultActivity : AppCompatActivity() {
