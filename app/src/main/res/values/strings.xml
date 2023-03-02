@@ -4,4 +4,6 @@
     <string name="add_image">add_image</string>
     <string name="image">image</string>
     <string name="selected_bg">selected_bg</string>
+    <string name="select_image">Выбор фотографий</string>
+    <string name="selected_image">Выбранные фотографии</string>
 </resources>
